@@ -86,8 +86,8 @@
                 <div class="col-six">
                     <div class="s-footer__copyright">
                         <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-						<br>This theme is costumized with <i class="fa fa-heart" aria-hidden="true" style="color:red"></i> by <a href="http://yudiprasetya.com">yudiPrasetya</a>, based on a beautiful html template from <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. Proudly powered by <a href="https://wordpress.org/" target="_blank">Wordpress</a>
+						<br>This theme is costumized with <i class="fa fa-heart" aria-hidden="true" style="color:red"></i> by <a href="http://yudiprasetya.com">YudiPrasetya</a>, based on a beautiful html template from <a href="https://colorlib.com" target="_blank">Colorlib</a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						</span>
                     </div>

@@ -54,7 +54,6 @@ function footer_widgets_init() {
 add_action( 'widgets_init', 'footer_widgets_init' );
 
 ?>
-
 <?php
 
     function format_comment($comment, $args, $depth) {

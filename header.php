@@ -5,14 +5,14 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <title><?php bloginfo('name'); ?></title>
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title><?php echo get_bloginfo( 'name' );?> <?php wp_title(); ?></title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
     <!-- CSS
     ================================================== -->
@@ -58,7 +58,7 @@
         <a class="header__search-trigger" href="#0"></a>
         <div class="header__search">
 
-            <form role="search" method="get" class="header__search-form" action="#">
+            <form role="search" method="get" class="header__search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                 <label>
                     <span class="hide-content">Search for:</span>
                     <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
