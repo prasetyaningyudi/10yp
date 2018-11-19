@@ -104,7 +104,6 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery-3.2.1.min.js"></script>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/js/plugins.js"></script>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/js/main.js"></script>
 

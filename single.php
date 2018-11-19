@@ -13,7 +13,7 @@
                          srcset="<?php echo get_post_meta( get_the_ID(), 'images', true );?> 2000w, 
                                  <?php echo get_post_meta( get_the_ID(), 'images', true );?> 1000w, 
                                  <?php echo get_post_meta( get_the_ID(), 'images', true );?> 500w" 
-                         sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                         sizes="(max-width: 2000px) 100vw, 2000px" alt="<?php the_title(); ?>">
                 </div>
             </div>
 

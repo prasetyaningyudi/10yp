@@ -23,7 +23,7 @@
     <!-- script
     ================================================== -->
     <script src="<?php echo get_bloginfo('template_directory'); ?>/js/modernizr.js"></script>
-
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery-3.2.1.min.js"></script>
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="<?php echo get_bloginfo('template_directory'); ?>/favicon.ico" type="image/x-icon">
